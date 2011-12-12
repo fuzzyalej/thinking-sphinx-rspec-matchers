@@ -1,4 +1,5 @@
 ENV['RAILS_ENV'] = "test"
 
 require 'rspec'
-require_relative "../lib/thinking-sphinx-rspec-matchers.rb"
+require_relative 'shared_examples'
+require_relative '../lib/thinking-sphinx-rspec-matchers'
