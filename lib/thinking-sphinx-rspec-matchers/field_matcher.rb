@@ -1,6 +1,6 @@
 module ThinkingSphinxRspecMatchers
   class Index
-    def initialize(expected, args)
+    def initialize(expected, args=nil)
       args ||= {}
 
       @expected = expected

@@ -1,13 +1,11 @@
 module ThinkingSphinxRspecMatchers
   class HaveAttribute
-    def initialize(expected, args)
+    def initialize(expected, args=nil)
       args ||= {}
 
       @expected = expected
       @facet = args[:facet] || false
       @as = args[:as]
-      @from = args[:from]
-      @sortable = args[:sortable]
     end
 
     def matches?(target)
