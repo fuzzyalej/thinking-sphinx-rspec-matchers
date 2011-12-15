@@ -2,6 +2,7 @@
 Ok, so here I present you my first gem. It was created out of necessity and I hope to both be useful to the community and learn a lot in the process.
 
 I would appreciate feedback very much, in the form of comments, code and/or beer! :-)
+[![status](https://secure.travis-ci.org/fuzzyalej/thinking-sphinx-rspec-matchers.png)](http://travis-ci.org/fuzzyalej/thinking-sphinx-rspec-matchers)
 
 
 # Installation
